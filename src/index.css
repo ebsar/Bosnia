@@ -1,0 +1,75 @@
+
+.Text-Section {
+
+    width: 710px;
+}
+
+.All {
+    display: flex;
+}
+.Text-Section {
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.Text-Section1 {
+    display: flex;
+    width: 220px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.GS-btn {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 120px;
+    height: 45px;
+    background-color: #1D267E;
+}
+
+
+
+.Text1 {
+    width: 370px;
+    height: 100px;
+}.Image{
+    margin-top: 150px;
+}
+
+.Text2 {
+    width: 500px;
+    
+    font-weight: lighter;
+}
+.Images{
+    position: absolute;
+    height: 700px;
+}.Image-Section{
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-left: 110px;
+}.Company-Section {
+   margin-top: 50px; 
+}.Company1{
+    width: 70px;
+    height: 30px;
+   
+}.Company2{
+    width: 150px;
+    height: 30px;
+    margin-left: 40px;
+   
+}.Company3{
+    width: 100px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    
+}.Company4{
+    width: 170px;
+    height: 30px;
+    margin-left: 40px;
+    
+}

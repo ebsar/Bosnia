@@ -1,51 +1,13 @@
 * {
-    margin: 5px;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .Logo {
-    flex-wrap: wrap;
-    position: relative;
-    width: 55px;
-    height: 55px;
+    margin-top: 10px;
 }
-
-.Logo3,
-.Logo4 {
-    position: absolute;
-    display: grid;
-    top: 15px;
-    left: 15px;
-}
-
-
-
-.Logo1 {
-    position: absolute;
-    margin-right: 2px;
-    left: 0;
-}
-
-.Logo2 {
-    position: absolute;
-    right: 0;
-}
-
-.Logo5 {
-    position: absolute;
-    margin-right: 2px;
-    bottom: 0;
-    left: 0;
-}
-
-.Logo6 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 .App {
     display: flex;
+    margin-left: 50px;
     align-items: center;
 }
 
@@ -63,17 +25,28 @@
 .Hero5,
 .Hero6,
 .Hero7 {
-    margin-right: 50px;
-}.Login-btn{
+    margin-right: 70px;
+}
+
+.Login-btn {
     border: none;
     background-color: transparent;
     color: grey;
-}.Signup-btn{
+    font-weight: bold;
+}
+
+.Signup-btn {
     margin-left: 20px;
     border: none;
     border-radius: 20px;
     color: white;
-    width: 100px;
-    height: 40px;
-    background-color: #663046;
+    width: 120px;
+    height: 45px;
+    background-color: #1D267E;
+}.Name{
+    margin-left: 20px;
+}.btn{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
