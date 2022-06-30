@@ -1,3 +1,4 @@
+import { BsChevronDown } from "react-icons/bs";
 import Group109 from './Icon/Group109.png';
 import './NavBar.css';
 function NavBar() {
@@ -7,12 +8,12 @@ function NavBar() {
                 <img className='Logo1' src={Group109} alt='Logo1' />
             </div>
             <div className='Name'>
-                <h2>Bosniaoutsources</h2>
+                <h3>Bosniaoutsource</h3>
             </div>
             <nav className='Hero'>
                 <ul className='Hero-Section' >
                     <li className='Hero1' >Home</li>
-                    <li className='Hero2'>Services</li>
+                    <li className='Hero2'>Services </li>
                     <li className='Hero3'>Resources</li>
                     <li className='Hero4'>Academy</li>
                     <li className='Hero5'>Company</li>

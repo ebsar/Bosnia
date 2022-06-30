@@ -2,51 +2,49 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.Logo {
-    margin-top: 10px;
-}
 .App {
     display: flex;
-    margin-left: 50px;
+    margin-left: 60px;
+    width: 100%;
     align-items: center;
+}
+.Name {
+    margin-left: 10px;
+}.Logo{
+    
+}
+
+.Hero {
+    justify-content: space-between;
+    width: 700px;
+    align-items: center;
+    margin-left: 10px;
+    color: gray;
 }
 
 .Hero-Section {
-    list-style-type: none;
     display: flex;
-    color: grey;
-    margin-left: 60px;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
-.Hero1,
-.Hero2,
-.Hero3,
-.Hero4,
-.Hero5,
-.Hero6,
-.Hero7 {
-    margin-right: 70px;
+.btn {
+    display: flex;
+    width: 200px;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Login-btn {
-    border: none;
-    background-color: transparent;
-    color: grey;
-    font-weight: bold;
+    color: gray;
 }
 
 .Signup-btn {
-    margin-left: 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     color: white;
     width: 120px;
-    height: 45px;
+    height: 40px;
     background-color: #1D267E;
-}.Name{
-    margin-left: 20px;
-}.btn{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
 }

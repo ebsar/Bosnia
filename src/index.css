@@ -1,75 +1,53 @@
+*{
 
-.Text-Section {
-
-    width: 710px;
 }
-
-.All {
+.All{
     display: flex;
-}
-.Text-Section {
-    margin-left: 120px;
+    width: 100%;
+}.Text-Section{
     margin-top: 80px;
-}
-
-.Text-Section1 {
-    display: flex;
-    width: 220px;
+    margin-left: 60px;
+    margin-right: 80px;
+}.Text1{
+    width: 500px;
     height: 100px;
+}.Text2{
+    width: 650px;
+    height: 80px;
+}.Text-Section1{
+    display: flex;
     align-items: center;
+    width: 200px;
     justify-content: space-between;
-}
-
-.GS-btn {
+}.GS-btn{
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     color: white;
     width: 120px;
-    height: 45px;
+    height: 40px;
     background-color: #1D267E;
-}
+}.Images{
+    width: 100%;
+}.Company-Section{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}.Image1{
 
-
-
-.Text1 {
-    width: 370px;
-    height: 100px;
 }.Image{
-    margin-top: 150px;
-}
-
-.Text2 {
-    width: 500px;
-    
-    font-weight: lighter;
-}
-.Images{
-    position: absolute;
-    height: 700px;
-}.Image-Section{
-    align-items: flex-end;
-    margin-top: 10px;
-    margin-left: 110px;
-}.Company-Section {
-   margin-top: 50px; 
+    display: grid;
+    align-items: center;
 }.Company1{
     width: 70px;
     height: 30px;
-   
 }.Company2{
-    width: 150px;
-    height: 30px;
-    margin-left: 40px;
-   
+    width: 100px;
+    height: fit-content;
 }.Company3{
     width: 100px;
-    height: 20px;
-    margin-bottom: 5px;
-    margin-left: 40px;
-    
-}.Company4{
-    width: 170px;
     height: 30px;
-    margin-left: 40px;
-    
+}.Company4{
+
 }

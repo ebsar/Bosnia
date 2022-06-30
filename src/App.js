@@ -34,7 +34,7 @@ function App() {
         <div className="Image-Section">
         <img className='Images' src={Group110} alt='Images' />
         </div>
-      </div>
+      </div> 
     </div>
   );
 }
