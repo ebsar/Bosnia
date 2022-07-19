@@ -1,4 +1,5 @@
 *{
+    border: 1px solid black;
 }.side-drawer{
    height: 100%;
    background: white;
@@ -35,10 +36,29 @@
     margin-right: 1rem;
     align-items: center;
     justify-content: space-between;
-}.Icon-Container{
-    width: 3rem;
-    height: 3rem;
-}.Title-Container{
+}.Icon-Container1{
+    width: 2rem;
+    height: 2rem;
+}.Title-Container1{
     margin-right: 5rem;
-    font-size: x-large;
+    font-size: large;
+}.icon-png{
+    width: 2rem;
+    height: 2rem;
+}.btn-container{
+   border: 1px solid black;
+   justify-items: center;
+}.Login-btn{
+    border: none;
+    background: transparent;
+}.Signup-btn{
+    margin-left: 20px;
+    border: none;
+    color: white;
+    background-color: #1D267E ;
+    border-radius: 15px;
+    width: 6rem;
+    height: 2.3rem;
+}.Close-Icon{
+    align-items: center;
 }

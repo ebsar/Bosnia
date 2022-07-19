@@ -11,13 +11,13 @@ const sideDrawer = props => {
     return (
     <nav className={drawerClasses}>
         <div className="Drawer-Container">
-        <div className="Icon-Container" >
-                <img src={GroupIcon} />
+        <div className="Icon-Container1" >
+                <img className="icon-png" src={GroupIcon} />
             </div>
-            <div className="Title-Container" >
+            <div className="Title-Container1" >
                 <span>Bosniaoutsource</span>
             </div>
-            <div onClick={props.click} >
+            <div className="Close-Icon" onClick={props.click} >
                  <GrClose/>
             </div>
             </div>
@@ -32,9 +32,9 @@ const sideDrawer = props => {
                     <li> <a href="" >Blog</a> </li>
                     <li> <a href="" >Career</a></li>
         </ul>
-        <div className="Btn-Conatiner" >
-                <button className="Login-Container" >Log in</button>
-                <button className="Signup-Container" >Sign up</button>
+        <div className="btn-container">
+            <button className="Login-btn">Log in</button>
+            <button className="Signup-btn">Sign up</button>
             </div>
     </nav>
     );
