@@ -5,38 +5,38 @@ import GroupIcon from './Icon/GroupIcon.png';
 import DrawerToggleButton from "./DrawerToggleButton";
 const sideDrawer = props => {
     let drawerClasses = 'side-drawer';
-    if(props.show){
+    if (props.show) {
         drawerClasses = 'side-drawer open';
     }
     return (
-    <nav className={drawerClasses}>
-        <div className="Drawer-Container">
-        <div className="Icon-Container1" >
-                <img className="icon-png" src={GroupIcon} />
+        <nav className={drawerClasses}>
+            <div className="Drawer-Container">
+                <div className="Icon-Container1" >
+                    <img className="icon-png" src={GroupIcon} />
+                </div>
+                <div className="Title-Container1" >
+                    <span>Bosniaoutsource</span>
+                </div>
+                <div className="Close-Icon" onClick={props.click} >
+                    <GrClose />
+                </div>
             </div>
-            <div className="Title-Container1" >
-                <span>Bosniaoutsource</span>
+            <div>
             </div>
-            <div className="Close-Icon" onClick={props.click} >
-                 <GrClose/>
+            <ul>
+                <li> <a href="" >Home</a> </li>
+                <li> <a href="" >Serrvices</a></li>
+                <li> <a href="" >Resources</a></li>
+                <li> <a href="" >Academy</a></li>
+                <li> <a href="" >Company</a>  </li>
+                <li> <a href="" >Blog</a> </li>
+                <li> <a href="" >Career</a></li>
+            </ul>
+            <div className="btn-container">
+                <button className="Login-btn">Log in</button>
+                <button className="Signup-btn">Sign up</button>
             </div>
-            </div>
-        <div>
-        </div>
-        <ul>
-        <li> <a href="" >Home</a> </li>
-                    <li> <a href="" >Serrvices</a></li>
-                    <li> <a href="" >Resources</a></li>
-                    <li> <a href="" >Academy</a></li>
-                    <li> <a href="" >Company</a>  </li>
-                    <li> <a href="" >Blog</a> </li>
-                    <li> <a href="" >Career</a></li>
-        </ul>
-        <div className="btn-container">
-            <button className="Login-btn">Log in</button>
-            <button className="Signup-btn">Sign up</button>
-            </div>
-    </nav>
+        </nav>
     );
 };
 export default sideDrawer;

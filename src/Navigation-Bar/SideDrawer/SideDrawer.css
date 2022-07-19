@@ -7,7 +7,7 @@
    position: fixed;
    top: 0;
    left: 0;
-   width: 70%;
+   width: 80%;
    max-width: 400px;
    z-index: 200;
    transform: translateX(0%);
@@ -45,7 +45,8 @@
     width: 2rem;
     height: 2rem;
 }.btn-container{
-   border: 1px solid black;
+    display: flex;
+    justify-content: center;
    justify-items: center;
 }.Login-btn{
     border: none;
@@ -59,5 +60,6 @@
     width: 6rem;
     height: 2.3rem;
 }.Close-Icon{
+    display: flex;
     align-items: center;
 }

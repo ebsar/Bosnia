@@ -1,22 +1,29 @@
 *{
     font-family: 'Poppins', sans-serif;
+    
     flex-wrap: wrap;
 }.Basic-Container{
     position: fixed;
     display: flex;
     align-items: center;
     width: 100%;
+    
 }.Icon-Container{
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    justify-content: space-between;
+    border: 1px solid black;
 }.Icon-Images{
-
+    height: 40px;
+    width: 40px;
 }.Title-Container{
-    align-items: flex-end;
-   margin-left: 1rem;
-   font-size: x-large;
+   font-size: larger;
 }.Nav-Section{
     display: flex;
     color: grey;
-    width:70rem;
+    border: 1px solid black;
+    width:40rem;
     justify-content: space-between;
     list-style: none;
 }.Btn-Conatiner{
@@ -42,17 +49,25 @@
     color: grey;
     text-decoration: none;
 }
-@media (max-width: 1020px ){
+@media (max-width: 1120px ){
     .Nav-Container, .Btn-Conatiner{
         display: none;
     }
-}@media (min-width: 1019px) {
+}@media (min-width: 1119px) {
     .toggle-container{
         display: none;
     }
 }
 .toggle-container{
-    position: absolute;
-    left: 80%;
-    margin-top: 10px;
+    
+}.Nav-Container{
+    border: 1px solid black;
+}@media (max-width: 1119){
+    .Basic-Container{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
 }

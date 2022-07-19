@@ -6,9 +6,7 @@ const NavBar = props =>(
         <div className='Basic-Container'>
             <div className="Icon-Container" >
                 <img className="Icon-Images" src={Group109} />
-            </div>
-            <div className="Title-Container" >
-                <span>Bosniaoutsource</span>
+                <span className="Title-Container">Bosniaoutsource</span>
             </div>
             <div className="Nav-Container" >
                 <ul className="Nav-Section">
