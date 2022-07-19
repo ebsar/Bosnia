@@ -13,12 +13,11 @@ const sideDrawer = props => {
             <div className="Drawer-Container">
                 <div className="Icon-Container1" >
                     <img className="icon-png" src={GroupIcon} />
-                </div>
-                <div className="Title-Container1" >
-                    <span>Bosniaoutsource</span>
-                </div>
+                    <span className="Title-Container1" >Bosniaoutsource</span>
+                  </div>
                 <div className="Close-Icon" onClick={props.click} >
                     <GrClose />
+              
                 </div>
             </div>
             <div>
