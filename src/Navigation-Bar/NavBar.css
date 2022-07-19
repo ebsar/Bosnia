@@ -1,9 +1,11 @@
 *{
     font-family: 'Poppins', sans-serif;
-    
     flex-wrap: wrap;
 }.Basic-Container{
-    position: fixed;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    position: sticky;
     display: flex;
     align-items: center;
     width: 100%;
@@ -21,7 +23,6 @@
 }.Nav-Section{
     display: flex;
     color: grey;
-    border: 1px solid black;
     width:60rem;
     justify-content: space-between;
     list-style: none;
@@ -29,7 +30,7 @@
     width: 10rem;
     justify-content: space-between;
     align-items: center;
-    margin-left: 2.5rem;
+    margin-right: 5%;
 }.Login-Container{
     border: none;
     background-color: transparent;
@@ -48,31 +49,31 @@
     color: grey;
     text-decoration: none;
 }
-@media (max-width: 1120px ){
+@media (max-width: 1123px ){
     .Nav-Container, .Btn-Conatiner{
         display: none;
     }
-}@media (min-width: 1119px) {
+}@media (min-width: 1122px) {
     .toggle-container{
         display: none;
     }
 }
-@media (max-width: 1428px ){
+@media (max-width: 1457px ){
     .Nav-Section{
         display: flex;
         color: grey;
-        border: 1px solid black;
         width:50rem;
         justify-content: space-between;
         list-style: none;
     }
-}@media (max-width: 1270px ){
+}@media (max-width: 1288px ){
     .Nav-Section{
         display: flex;
         color: grey;
-        border: 1px solid black;
         width:40rem;
         justify-content: space-between;
         list-style: none;
     }
+}.toggle-container{
+    margin-right: 4%;
 }

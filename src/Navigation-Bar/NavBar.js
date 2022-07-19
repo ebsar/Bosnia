@@ -11,7 +11,7 @@ const NavBar = props =>(
             <div className="Nav-Container" >
                 <ul className="Nav-Section">
                     <li> <a href="" >Home</a> </li>
-                    <li> <a href="" >Serrvices</a></li>
+                    <li> <a href="" >Services</a></li>
                     <li> <a href="" >Resources</a></li>
                     <li> <a href="" >Academy</a></li>
                     <li> <a href="" >Company</a>  </li>

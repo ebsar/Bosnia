@@ -17,7 +17,6 @@ const sideDrawer = props => {
                   </div>
                 <div className="Close-Icon" onClick={props.click} >
                     <GrClose />
-              
                 </div>
             </div>
             <div>

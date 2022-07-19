@@ -1,6 +1,4 @@
-*{
-   
-}.side-drawer{
+.side-drawer{
    height: 100%;
    background: white;
    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0,5);
@@ -10,8 +8,7 @@
    width: 80%;
    max-width: 400px;
    z-index: 200;
-   transform: translateX(0%);
-   transition: transform 0.5s ease-out;
+   
 }.side-drawer ul{
     height: 50%;
     list-style: none;
@@ -25,16 +22,15 @@
 }.side-drawer a:hover,
 .side-drawer a:active{
     color: #1D267E;
-}.side-drawer.open{
-    transform: translateX(100%);
 }.Drawer-Container{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }.Icon-Container1{
-    border: 1px solid black;
     display: flex;
+    margin-left: 3%;
+    margin-top: 3%;
     width: 80%;
     align-items: center;
 }.Title-Container1{
@@ -60,4 +56,8 @@
 }.Close-Icon{
     display: flex;
     align-items: center;
+    margin-top:1rem;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 5%;
 }

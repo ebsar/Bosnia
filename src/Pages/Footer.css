@@ -1,0 +1,38 @@
+.Container-1{
+    display: flex;
+    margin-top: 5rem;
+}.Text-2{
+    margin-left:10px;
+    
+    width: 30rem;
+}.text-1{
+    font-size: xx-large;
+}.Text-Container{
+    
+    width: 50rem;
+    margin-left: 5rem;
+    flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+    .Text-Container{
+        
+        width: 30rem;
+        flex-wrap: wrap;
+    }.Group110{
+        width: 10rem;
+    }
+}@media (max-width: 630px) {
+    .Text-Container{
+    
+        width: 20rem;
+        flex-wrap: wrap;
+    }.Icon-Purple{
+        display: none;
+    }.Group110{
+        width: 10rem;
+    }
+}.Icon-Purple{
+    margin-top: 10%;
+}.Group110{
+    width: 20%;
+}
