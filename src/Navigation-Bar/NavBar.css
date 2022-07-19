@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}.Basic-Container{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}.Icon-Container{
+}.Icon-Images{
+
+}.Title-Container{
+    align-items: flex-end;
+   margin-left: 1rem;
+   font-size: large;
+}.Nav-Section{
+    display: flex;
+    color: grey;
+    width:70rem;
+    justify-content: space-between;
+    list-style: none;
+}.Btn-Conatiner{
+    width: 10rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.5rem;
+}.Login-Container{
+    border: none;
+    background-color: transparent;
+    color: grey;
+}.Signup-Container{
+    margin-left: 20px;
+    border: none;
+    color: white;
+    background-color: #1D267E ;
+    border-radius: 15px;
+    width: 5.5rem;
+    height: 2.5rem;
+} .Nav-Section a:hover, .Nav-Section a:active{
+    color:#1D267E;
+}.Nav-Section a {
+    color: grey;
+    text-decoration: none;
+}
+@media (max-width: 1020px ){
+    .Nav-Container, .Btn-Conatiner{
+        display: none;
+    }
+}@media (min-width: 1019px) {
+    .toggle-container{
+        display: none;
+    }
+}
+.toggle-container{
+    position: absolute;
+    left: 100%;
+    margin-top: 10px;
+}
