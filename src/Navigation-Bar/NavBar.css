@@ -5,7 +5,7 @@
     position: fixed;
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }.Icon-Container{
 }.Icon-Images{
 
@@ -53,6 +53,6 @@
 }
 .toggle-container{
     position: absolute;
-    left: 100%;
+    left: 90%;
     margin-top: 10px;
 }
