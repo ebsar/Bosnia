@@ -1,6 +1,4 @@
-*{
-    border: 1px solid black;
-}.Container-1{
+.Container-1{
     margin-top: 2%;
     width: 100%;
     flex-wrap: wrap;
@@ -11,7 +9,7 @@
     margin-top: 5%;
 }.Text-2{
     color: grey;
-    font-weight: light;
+    font-size: max(10px,0.8vw);
 }.text-1{
     font-size: max(25px,2.75vw);
 }.Icon-Purple{
