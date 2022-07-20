@@ -1,38 +1,73 @@
-.Container-1{
-    display: flex;
-    margin-top: 5rem;
-}.Text-2{
-    margin-left:10px;
-    
-    width: 30rem;
-}.text-1{
-    font-size: xx-large;
-}.Text-Container{
-    
-    width: 50rem;
-    margin-left: 5rem;
+*{
+    border: 1px solid black;
+}.Container-1{
+    margin-top: 2%;
+    width: 100%;
     flex-wrap: wrap;
-}
-@media (max-width: 1200px) {
-    .Text-Container{
-        
-        width: 30rem;
-        flex-wrap: wrap;
-    }.Group110{
-        width: 10rem;
-    }
-}@media (max-width: 630px) {
-    .Text-Container{
-    
-        width: 20rem;
-        flex-wrap: wrap;
-    }.Icon-Purple{
-        display: none;
-    }.Group110{
-        width: 10rem;
-    }
+    display: flex;
+    justify-content: space-between;
+}.Text-Container{
+    width: 40%;
+    margin-top: 5%;
+}.Text-2{
+    color: grey;
+    font-weight: light;
+}.text-1{
+    font-size: max(25px,2.75vw);
 }.Icon-Purple{
+    width: 5%;
+    height: 50%;
+    display: flex;
     margin-top: 10%;
 }.Group110{
-    width: 20%;
+    width: 40%;
+    height: 40%;
+}.Group110-img{
+    width: 100%;
+}.Company-Container{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}.getstarted-btn{
+    border: none;
+    color: white;
+    background-color: #1D267E ;
+    border-radius: 20px;
+    width: 7rem;
+    height: 2.5rem;
+}.readmore-btn{
+    border: none;
+    flex-basis: 20%;
+    background-color: transparent;
+    color: grey;
+}.btn-more{
+    margin-top: 10%;
+    display: flex;
+}.anydesk-icon, .frloitte-icon, .viber-icon{
+    width: 100px;
+}.ebay-icon{
+    width: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
