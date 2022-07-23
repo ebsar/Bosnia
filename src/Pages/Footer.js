@@ -26,10 +26,10 @@ function Footer() {
                     </button>
                 </div>
                 <div className="Company-Container">
-                    <img className="ebay-icon" src={Layer1}/>
-                    <img className="anydesk-icon" src={ebay2}/>
-                    <img className="frloitte-icon" src={ebay1}/>
-                    <img className="viber-icon" src={ebay}/>
+                    <img className="ebay-icon" src={Layer1} alt='Layer1'/>
+                    <img className="anydesk-icon" src={ebay2}  alt='ebay2'/>
+                    <img className="frloitte-icon" src={ebay1} alt='ebay1'/>
+                    <img className="viber-icon" src={ebay} alt='ebay'/>
                 </div>
             </div>
             <div className="Group110">

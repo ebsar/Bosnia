@@ -9,7 +9,7 @@
     margin-top: 5%;
 }.Text-2{
     color: grey;
-    font-size: max(10px,0.8vw);
+    font-size: max(0px,0.8vw);
 }.text-1{
     font-size: max(25px,2.75vw);
 }.Icon-Purple{
@@ -25,7 +25,7 @@
 }.Company-Container{
     margin-top: 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 10%;
 }.getstarted-btn{
@@ -37,17 +37,72 @@
     height: 2.5rem;
 }.readmore-btn{
     border: none;
-    flex-basis: 20%;
+    flex-basis: 40px;
     background-color: transparent;
     color: grey;
 }.btn-more{
-    margin-top: 10%;
+    margin-top: 30px;
     display: flex;
 }.anydesk-icon, .frloitte-icon, .viber-icon{
-    width: 100px;
+    width: 130px;
 }.ebay-icon{
-    width: 60px;
+    width: 80px;
+}@media (max-width: 650px ){
+    .Container-1{
+        margin-top: 2%;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }.Text-Container{
+        width: 40%;
+        margin-top: 2.5%;
+    }.Text-2{
+        color: grey;
+        font-size: max(8px,0.8vw);
+    }.text-1{
+        font-size: max(15px,2.75vw);
+    }.Icon-Purple{
+        width: 10%;
+        height: 25%;
+        display: flex;
+        margin-top: 10%;
+    }.Group110{
+        width: 40%;
+        border: 1px solid black;
+    }.Group110-img{
+    }.Company-Container{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 5%;
+    }.getstarted-btn{
+        border: none;
+        color: white;
+        background-color: #1D267E ;
+        border-radius: 10px;
+        width: 5rem;
+
+        height: 2.5rem;
+    }.readmore-btn{
+        border: none;  
+        background-color: transparent;
+        color: grey;
+        width: 40%;
+        height: 100%;
+        border: 1px solid black;
+    }.btn-more{
+        margin-top: 15px;
+        display: flex;
+        border: 1px solid black;
+    }.anydesk-icon, .frloitte-icon, .viber-icon{
+        width: 75px;
+    }.ebay-icon{
+        width: 40px;
+    }
 }
+
 
 
 
