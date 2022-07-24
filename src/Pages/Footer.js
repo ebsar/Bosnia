@@ -14,9 +14,9 @@ function Footer() {
             <div className="Text-Container">
                 <h1 className="text-1">Sculpt your thoughts
                     to reality</h1>
-                <span className="Text-2">Since 1989. For millions of users. We transform businesses with powerful and adaptable digital
+                <p className="Text-2">Since 1989. For millions of users. We transform businesses with powerful and adaptable digital
                     solutions that satisfy the needs of today and unlock the opportunities of tomorrow
-                </span>
+                </p>
                 <div className="btn-more">
                     <button className="getstarted-btn">
                         Get Started

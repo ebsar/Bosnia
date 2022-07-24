@@ -5,6 +5,8 @@ import Aos from "aos";
 import SideDrawer from "./Navigation-Bar/SideDrawer/SideDrawer";
 import Backdrop from "./Navigation-Bar/SideDrawer/BackDrop/Backdrop";
 import Footer from "./Pages/Footer";
+import Features from "./Pages/Features";
+import Future from "./Pages/Future";
 
 class App extends Component {
   state = {
@@ -31,6 +33,8 @@ class App extends Component {
         {sideDrawer}
         {backdrop}
         <Footer />
+        <Features/>
+        <Future/>
       </div>
     )
   }
