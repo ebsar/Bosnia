@@ -3,7 +3,7 @@ import '../SideDrawer/SideDrawer.css';
 import { GrClose } from "react-icons/gr";
 import GroupIcon from './Icon/GroupIcon.png';
 import DrawerToggleButton from "./DrawerToggleButton";
-const sideDrawer = props => {
+function SideDrawer (props) {
     let drawerClasses = 'side-drawer';
     if (props.show) {
         drawerClasses = 'side-drawer open';
@@ -37,4 +37,4 @@ const sideDrawer = props => {
         </nav>
     );
 };
-export default sideDrawer;
+export default SideDrawer;

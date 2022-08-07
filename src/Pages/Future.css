@@ -1,6 +1,4 @@
-*{
-
-}.Future{
+.Future{
     display: flex;
     width: 100%;
 }.title-images{
@@ -21,11 +19,14 @@
 }.Main-Image{
     position: absolute;
     left: 37%;
-    width: 100%;
+    width: 750px;
     height: 150px;
 }.Image-Video{
     display: flex;
     align-items: center;
     margin-top: 27%;
     
+}.title-images span{
+    font-size: xx-large;
+    font-weight: bold;
 }

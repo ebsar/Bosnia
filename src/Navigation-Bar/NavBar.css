@@ -1,6 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
     flex-wrap: wrap;
+    border: 1px solid black;
 }.Basic-Container{
     margin-top: 1%;
     position: sticky;
@@ -46,6 +47,13 @@
 }.Nav-Section a {
     color: grey;
     text-decoration: none;
+}.Services-Text{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}.Services-Chevron{
+    display: flex;
+    align-items: center;
 }
 @media (max-width: 1138px ){
     .Nav-Container, .Btn-Conatiner{
@@ -74,4 +82,15 @@
     }
 }.toggle-container{
     margin-right: 4%;
+}.Reac-Icon1{
+position: absolute;
+margin-top: 5px;
+margin-left: 10px;
+}.Nav-Section1{
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
 }

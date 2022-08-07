@@ -10,9 +10,9 @@ function Future() {
             
                 <div className="title-images">
                 <img className="Image-1" src={Group112}/>
-                    <h3 className="Text-111">
+                    <span className="Text-111">
                         Globally recognized outsourcing destination
-                    </h3>
+                    </span>
                     <p className="Test-112">
                         Bosnia has gained compelling positions in prominent international technology related rankings. Global Outsourcing has listed 18 Bosnian software development outsourcing companies among the best outsourcing companies in Eastern Europe.
                     </p>

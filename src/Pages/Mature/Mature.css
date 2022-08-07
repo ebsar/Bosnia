@@ -1,0 +1,27 @@
+.Mature-Main{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    align-items: center;
+}.Text{
+    width: 30%;
+}.First-Image img {
+    width: 850px;
+}.Text span {
+    font-size: x-large;
+    font-weight: bold;
+}.btn-Container{
+    display: flex;
+    gap: 5%;
+}.GetStarted-btn{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #1D267E;
+}.ReadMore-btn{
+    border: none;
+    background-color: transparent;
+    color: grey;
+}
